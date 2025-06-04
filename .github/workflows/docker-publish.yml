@@ -3,7 +3,7 @@ name: Build and Push Docker Image
 on:
   push:
     branches:
-      - main  # vagy 'master', attól függően, melyik a főágad
+      - master
     paths:
       - Dockerfile
       - '**/*.py'
